@@ -1,6 +1,8 @@
 This repository provides a reproducer for https://github.com/github/local-action/issues/168 on Windows.
 
-Failure without `type: "module"` in package.json:
+
+
+Failure with `type: "commonjs"` in package.json:
 ```
 $ npm run local-action
 
