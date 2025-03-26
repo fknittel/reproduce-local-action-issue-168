@@ -1,0 +1,23 @@
+{
+  "name": "typescript-action",
+  "description": "GitHub Actions TypeScript template",
+  "version": "0.0.0",
+  "author": "",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "local-action": "npx @github/local-action . src/main.ts .env"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.11.1"
+  },
+  "devDependencies": {
+    "@github/local-action": "^3.1.1",
+    "@types/node": "^20.17.27",
+    "typescript": "^5.8.2"
+  }
+}
